@@ -1,1 +1,2 @@
-# Abstraction and Encapsulation
+class Fan:
+    pass

@@ -10,7 +10,7 @@ class TestFan:
         second_obj = Fan(Fan.MEDIUM, 5, "blue", False)
 # Display each object’s speed, radius, color, and on properties.
         # First obj 
-        print ("FAN #1 SPEED = ", first_obj.get_speed())
+        print ("\nFAN #1 SPEED = ", first_obj.get_speed())
         print ("FAN #1 RADIUS = ", first_obj.get_radius())
         print ("FAN #1 COLOR = ", first_obj.get_color())
         print ("FAN #1 STATUS = ", first_obj.status_on())
@@ -18,7 +18,7 @@ class TestFan:
         print("=" *50)
 
         # Second obj
-        print ("/nFAN #2 SPEED = ", second_obj.get_speed())
+        print ("FAN #2 SPEED = ", second_obj.get_speed())
         print ("FAN #2 RADIUS = ", second_obj.get_radius())
         print ("FAN #2 COLOR = ", second_obj.get_color())
         print ("FAN #2 STATUS = ", second_obj.status_on())

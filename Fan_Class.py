@@ -21,9 +21,16 @@ class Fan:
         elif self.__speed == 3:
             self.__speed == "FAST"
 
-
 # A private int data field named speed that specifies the speed of the fan.
+    def set_speed(self, speed):
+        self.__speed = speed
+        
 # A private bool data field named on that specifies whether the fan is on (the default is False).
+    def status_on(self):
+        return self.__on
+    
+    def set_on(self, on):
+        self.__on == on
 # A private float data field named radius that specifies the radius of the fan.
 # A private string data field named color that specifies the color of the fan.
 # The accessor(getters) and mutator(setters) methods for all four data fields.

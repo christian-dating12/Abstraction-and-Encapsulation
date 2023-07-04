@@ -32,5 +32,10 @@ class Fan:
     def set_on(self, on):
         self.__on == on
 # A private float data field named radius that specifies the radius of the fan.
+    def get_radius(self):
+        return self.__radius
+    
+    def set_radius(self, radius):
+        self.__radius == radius
 # A private string data field named color that specifies the color of the fan.
 # The accessor(getters) and mutator(setters) methods for all four data fields.

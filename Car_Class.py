@@ -1,6 +1,10 @@
 class Car:
-    pass
-
+    
+    def __init__(self, year_model = 2020, make = "Porsche", speed = 0 ):
+        self.__year_model = year_model
+        self.__make = make
+        self.__speed = speed
+        
 # Pseudocode
 # The accelerate method should add 5 to the speed data attribute each time it is called.
 # The brake method should subtract 5 from the speed data attribute each time it is called.

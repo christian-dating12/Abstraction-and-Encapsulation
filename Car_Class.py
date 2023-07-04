@@ -10,4 +10,6 @@ class Car:
     def acc(self):
         self.__speed += 5
 # The brake method should subtract 5 from the speed data attribute each time it is called.
+    def brake(self):
+        self.__speed -= 5
 # The get_speed method should return the current speed.

@@ -15,12 +15,7 @@ class Fan:
 # The accessor(getters) and mutator(setters) methods for all four data fields.
     # get fan speed
     def get_speed(self):
-        if self.__speed == 1:
-            self.__speed == "SLOW"
-        elif self.__speed == 2:
-            self.__speed == "MEDIUM"
-        elif self.__speed == 3:
-            self.__speed == "FAST"
+        return self.__speed
 
 # A private int data field named speed that specifies the speed of the fan.
     def set_speed(self, speed):

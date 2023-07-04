@@ -15,4 +15,12 @@ class TestFan:
         print ("FAN #1 COLOR = ", first_obj.get_color())
         print ("FAN #1 STATUS = ", first_obj.status_on())
 
+        print("=" *50)
+
+        # Second obj
+        print ("/nFAN #2 SPEED = ", second_obj.get_speed())
+        print ("FAN #2 RADIUS = ", second_obj.get_radius())
+        print ("FAN #2 COLOR = ", second_obj.get_color())
+        print ("FAN #2 STATUS = ", second_obj.status_on())
+
 TestFan()

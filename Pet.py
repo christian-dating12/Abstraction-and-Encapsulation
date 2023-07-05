@@ -7,4 +7,4 @@ from Pet_Class import Pet
 pet = Pet (input("Enter the name of your pet: "), input("Enter the type of your pet: "), input("Enter the age of your pet: "))
 
 # Use the object’s accessor methods to retrieve the pet’s name, type, and age and display this data on the screen.
-
+print("\nPET'S NAME: ", pet.get_name(), "\nPET'S TYPE: ", pet.get_animal_type(), "\nPET'S AGE: ", pet.get_age())

@@ -4,7 +4,7 @@ class Pet:
 
     def __init__(self, name, animal_type, age):
         self.__name = name
-        self.__animal_type = type
+        self.__animal_type = animal_type
         self.__age = age
 # It should also have the following methods:
 # set_name() This method assigns a value to the _ _name field.

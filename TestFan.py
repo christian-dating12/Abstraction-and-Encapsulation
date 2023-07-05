@@ -9,18 +9,29 @@ class TestFan:
 # Assign medium speed, radius 5, color blue, and turn it off for the second object. 
         second_obj = Fan(Fan.MEDIUM, 5, "blue", False)
 # Display each object’s speed, radius, color, and on properties.
+
+        input("\n\033[93mPress Any Key to Start...\033[0m\n")
+        print("\033[90m=" *100)
+        print("\033[93m ------------------------- WELCOME! ------------------------- \033[0m".center(105))
+        print("\033[90m=" *100)
+
         # First obj 
-        print ("\nFAN #1 SPEED = ", first_obj.get_speed())
-        print ("FAN #1 RADIUS = ", first_obj.get_radius())
-        print ("FAN #1 COLOR = ", first_obj.get_color())
-        print ("FAN #1 STATUS = ", first_obj.status_on())
+        print("\033[93m  FAN #1  \033[0m".center(105))
+        print("\033[90m=" *100)
 
-        print("=" *50)
+        print ("\n\033[96mSPEED = ", first_obj.get_speed())
+        print ("\033[96mRADIUS = ", first_obj.get_radius())
+        print ("\033[96mCOLOR = ", first_obj.get_color())
+        print ("\033[96mSTATUS = ", first_obj.status_on())
 
+        print("\033[90m=" *100)
+        print("\033[93m  FAN #2  \033[0m".center(105))
+        print("\033[90m=" *100)
+        
         # Second obj
-        print ("FAN #2 SPEED = ", second_obj.get_speed())
-        print ("FAN #2 RADIUS = ", second_obj.get_radius())
-        print ("FAN #2 COLOR = ", second_obj.get_color())
-        print ("FAN #2 STATUS = ", second_obj.status_on())
+        print ("\n\033[96mSPEED = ", second_obj.get_speed())
+        print ("\033[96mRADIUS = ", second_obj.get_radius())
+        print ("\033[96mCOLOR = ", second_obj.get_color())
+        print ("\033[96mSTATUS = ", second_obj.status_on())
 
 TestFan()

@@ -16,6 +16,9 @@ class Pet:
         return self.__name
 
 # set_animal_type() This method assigns a value to the _ _animal_type field.
+    def set_name(self, animal_type):
+        self.__new = animal_type
+
 # get_animal_type() This method returns the value of the _ _animal_type field.
 # set_age() This method assigns a value to the _ _age field.
 # get_age() This method returns the value of the _ _age field.
